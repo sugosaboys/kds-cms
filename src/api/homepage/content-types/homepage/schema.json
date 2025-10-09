@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navbar": {
+      "type": "component",
+      "component": "navbar.navbar",
+      "repeatable": false
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "hero.theme1",
+        "carousels.slider-theme",
+        "contentwith-media.left-theme",
+        "menu.menu-theme1"
+      ]
+    },
+    "Footer": {
+      "type": "component",
+      "component": "footer.default-theme",
+      "repeatable": false
+    }
+  }
+}

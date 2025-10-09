@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_navbar_navbars",
+  "info": {
+    "displayName": "navbar"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "navlinks": {
+      "type": "component",
+      "component": "navbar.repeat-text",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

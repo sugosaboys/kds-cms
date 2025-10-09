@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_menu_menu_theme1s",
+  "info": {
+    "displayName": "MenuTheme1"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ListMenu": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

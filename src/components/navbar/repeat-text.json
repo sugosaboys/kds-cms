@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navbar_repeat_texts",
+  "info": {
+    "displayName": "repeatText"
+  },
+  "options": {},
+  "attributes": {
+    "navlinks": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

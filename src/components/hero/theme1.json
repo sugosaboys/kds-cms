@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hero_theme1s",
+  "info": {
+    "displayName": "Theme1"
+  },
+  "options": {},
+  "attributes": {
+    "HeroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeroText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
