@@ -5,10 +5,10 @@
   },
   "options": {},
   "attributes": {
-    "navlinks": {
+    "label": {
       "type": "string"
     },
-    "label": {
+    "navlinks": {
       "type": "string"
     }
   },
