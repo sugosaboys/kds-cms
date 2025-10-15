@@ -15,18 +15,18 @@
         "audios"
       ]
     },
+    "Phone": {
+      "type": "string"
+    },
     "SocialMedia": {
       "type": "component",
-      "component": "navbar.repeat-text",
+      "component": "navbar.social-media",
       "repeatable": true
     },
     "Address": {
       "type": "component",
       "component": "navbar.repeat-text",
-      "repeatable": true
-    },
-    "Phone": {
-      "type": "string"
+      "repeatable": false
     }
   },
   "config": {}
