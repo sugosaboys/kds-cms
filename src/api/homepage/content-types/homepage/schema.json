@@ -29,6 +29,9 @@
       "type": "component",
       "component": "footer.default-theme",
       "repeatable": false
+    },
+    "FooterBottomURL": {
+      "type": "string"
     }
   }
 }

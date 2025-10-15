@@ -33,9 +33,12 @@ export interface FooterDefaultTheme extends Struct.ComponentSchema {
     displayName: 'defaultTheme';
   };
   attributes: {
+    Address: Schema.Attribute.Component<'navbar.repeat-text', true>;
     BackgroundImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    Phone: Schema.Attribute.String;
+    SocialMedia: Schema.Attribute.Component<'navbar.repeat-text', true>;
   };
 }
 
