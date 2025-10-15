@@ -19,6 +19,11 @@
       "type": "component",
       "component": "navbar.repeat-text",
       "repeatable": true
+    },
+    "subNavbar": {
+      "type": "component",
+      "component": "navbar.repeat-text",
+      "repeatable": true
     }
   },
   "config": {}

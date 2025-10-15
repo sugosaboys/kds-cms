@@ -70,6 +70,7 @@ export interface NavbarNavbar extends Struct.ComponentSchema {
   attributes: {
     logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     navlinks: Schema.Attribute.Component<'navbar.repeat-text', true>;
+    subNavbar: Schema.Attribute.Component<'navbar.repeat-text', true>;
   };
 }
 
