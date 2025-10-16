@@ -94,7 +94,6 @@ export interface NavbarSocialMedia extends Struct.ComponentSchema {
     displayName: 'SocialMedia';
   };
   attributes: {
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     label: Schema.Attribute.String;
     link: Schema.Attribute.String;
   };
