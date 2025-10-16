@@ -99,6 +99,18 @@ export interface NavbarSocialMedia extends Struct.ComponentSchema {
   };
 }
 
+export interface SeoSeo extends Struct.ComponentSchema {
+  collectionName: 'components_seo_seos';
+  info: {
+    displayName: 'SEO';
+  };
+  attributes: {
+    keywords: Schema.Attribute.Text;
+    MetaDescription: Schema.Attribute.Text;
+    MetaTitle: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -110,6 +122,7 @@ declare module '@strapi/strapi' {
       'navbar.navbar': NavbarNavbar;
       'navbar.repeat-text': NavbarRepeatText;
       'navbar.social-media': NavbarSocialMedia;
+      'seo.seo': SeoSeo;
     }
   }
 }
